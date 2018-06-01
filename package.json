@@ -46,6 +46,8 @@
     "devDependencies": {
         "@types/esprima": "^4.0.1",
         "@types/estree": "^0.0.39",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
         "chai": "^4.1.1",
         "codecov": "^3.0.1",
         "dependency-check": "^3.1.0",
@@ -58,6 +60,7 @@
         "tern": "^0.21.0"
     },
     "dependencies": {
+        "babel-preset-node6": "^11.0.0",
         "chalk": "^2.4.1",
         "cli-table2": "^0.2.0",
         "command-line-args": "^5.0.0",
